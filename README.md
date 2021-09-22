@@ -13,11 +13,11 @@
 
 
 
-[![Solved.ac 프로필](http://mazassumnida.wtf/api/mini/generate_badge?boj=elwlahd555)](https://solved.ac/yjks0201)
+[![Solved.ac 프로필](http://mazassumnida.wtf/api/mini/generate_badge?boj=elwlahd555)](https://solved.ac/elwlahd555)
 <br>
 <hr>
 
-[![Solved.ac Profile](http://mazassumnida.wtf/api/v2/generate_badge?boj=elwlahd555)](https://solved.ac/yjks0201/)
+[![Solved.ac Profile](http://mazassumnida.wtf/api/v2/generate_badge?boj=elwlahd555)](https://solved.ac/elwlahd555/)
 
 <hr>
 
