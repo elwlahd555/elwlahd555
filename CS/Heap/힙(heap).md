@@ -16,7 +16,7 @@
 
 마지막 레벨을 제외하면 완전히 꽉 차있고, 마지막 레벨에는 가장 오른쪽부터 연속된 몇 개의 노드가 비어있을 수 있다.
 
-![%E1%84%92%E1%85%B5%E1%86%B8(heap)%208741a611cbbb4027acb83f65df121b1f/Untitled.png](%E1%84%92%E1%85%B5%E1%86%B8(heap)%208741a611cbbb4027acb83f65df121b1f/Untitled.png)
+![%E1%84%92%E1%85%B5%E1%86%B8(heap)%208741a611cbbb4027acb83f65df121b1f/Untitled.png](img/Untitled.png)
 
 - 힙의 종류
 
