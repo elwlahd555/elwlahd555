@@ -26,11 +26,11 @@
 
 최소힙(min heap property) : 부모는 자식보다 작거나 같다. → 최소값을 찾는데 시간복잡도 O(1)
 
-![%E1%84%92%E1%85%B5%E1%86%B8(heap)%208741a611cbbb4027acb83f65df121b1f/Untitled%201.png](%E1%84%92%E1%85%B5%E1%86%B8(heap)%208741a611cbbb4027acb83f65df121b1f/Untitled%201.png)
+![%E1%84%92%E1%85%B5%E1%86%B8(heap)%208741a611cbbb4027acb83f65df121b1f/Untitled%201.png](img/Untitled%201.png)
 
 - 예시
 
-![%E1%84%92%E1%85%B5%E1%86%B8(heap)%208741a611cbbb4027acb83f65df121b1f/Untitled%202.png](%E1%84%92%E1%85%B5%E1%86%B8(heap)%208741a611cbbb4027acb83f65df121b1f/Untitled%202.png)
+![%E1%84%92%E1%85%B5%E1%86%B8(heap)%208741a611cbbb4027acb83f65df121b1f/Untitled%202.png](img/Untitled%202.png)
 
 (a)는 3가지 모두 다 완전이진트리와 최대 힙의 특성을 만족한다.
 
@@ -38,7 +38,7 @@
 
 (c)는 완전이진트리가 아니다.
 
-![%E1%84%92%E1%85%B5%E1%86%B8(heap)%208741a611cbbb4027acb83f65df121b1f/Untitled%203.png](%E1%84%92%E1%85%B5%E1%86%B8(heap)%208741a611cbbb4027acb83f65df121b1f/Untitled%203.png)
+![%E1%84%92%E1%85%B5%E1%86%B8(heap)%208741a611cbbb4027acb83f65df121b1f/Untitled%203.png](img/Untitled%203.png)
 
 위의 힙은 동일한 데이터를 가지고 있지만 다르다. 즉 힙은 유일하지 않다.
 
@@ -51,7 +51,7 @@
     - A[i]의 왼쪽 자식 = A[2i]
     - A[i]의 오른쪽 자식 = A[2i+1]
 
-![%E1%84%92%E1%85%B5%E1%86%B8(heap)%208741a611cbbb4027acb83f65df121b1f/Untitled%204.png](%E1%84%92%E1%85%B5%E1%86%B8(heap)%208741a611cbbb4027acb83f65df121b1f/Untitled%204.png)
+![%E1%84%92%E1%85%B5%E1%86%B8(heap)%208741a611cbbb4027acb83f65df121b1f/Untitled%204.png](img/Untitled%204.png)
 
 ## heapify
 
@@ -65,7 +65,7 @@
 
 모든 노드들에 대해서 두 자식들 중 더 큰 쪽이 나보다 크면 자리를 바꾼다. 더이상 비교할 자식이 없거나 힙을 만족하게 되면 중단한다.
 
-![%E1%84%92%E1%85%B5%E1%86%B8(heap)%208741a611cbbb4027acb83f65df121b1f/Untitled%205.png](%E1%84%92%E1%85%B5%E1%86%B8(heap)%208741a611cbbb4027acb83f65df121b1f/Untitled%205.png)
+![%E1%84%92%E1%85%B5%E1%86%B8(heap)%208741a611cbbb4027acb83f65df121b1f/Untitled%205.png](img/Untitled%205.png)
 
 최대힙을 만드는 heapify 과정이다
 
@@ -83,7 +83,7 @@
 
 (e) 마지막 순서는 인덱스 1(루트노드)이다. 4 < 16 이므로 인덱스 1과 인덱스 2의 값을 바꾸면 인덱스2의 값은 4이다. 4 < 14 이므로 인덱스 2와 인덱스 4의 값을 바꾼다. 그리고 4 < 8 이므로 인덱스 4와 인덱스 9의 값을 바꾼 그림이 (f)이다.
 
-![%E1%84%92%E1%85%B5%E1%86%B8(heap)%208741a611cbbb4027acb83f65df121b1f/Untitled%206.png](%E1%84%92%E1%85%B5%E1%86%B8(heap)%208741a611cbbb4027acb83f65df121b1f/Untitled%206.png)
+![%E1%84%92%E1%85%B5%E1%86%B8(heap)%208741a611cbbb4027acb83f65df121b1f/Untitled%206.png](img/Untitled%206.png)
 
 ## 힙의 삽입
 
@@ -99,7 +99,7 @@ N이 노드의 개수라면, 시간복잡도는 $O(log N)$
 
 ex)
 
-![%E1%84%92%E1%85%B5%E1%86%B8(heap)%208741a611cbbb4027acb83f65df121b1f/Untitled%207.png](%E1%84%92%E1%85%B5%E1%86%B8(heap)%208741a611cbbb4027acb83f65df121b1f/Untitled%207.png)
+![%E1%84%92%E1%85%B5%E1%86%B8(heap)%208741a611cbbb4027acb83f65df121b1f/Untitled%207.png](img/Untitled%207.png)
 
 30을 제일 끝에 삽입 → 부모인 20과 비교하여 스왑 → 부모인 21과 비교하여 스왑 → 최대힙이 만들어졌으므로 삽입 종료
 
@@ -119,17 +119,17 @@ N이 노드의 개수라면, 시간복잡도는 $O(log N)$
 
 ex1) 최대힙 삭제
 
-![%E1%84%92%E1%85%B5%E1%86%B8(heap)%208741a611cbbb4027acb83f65df121b1f/Untitled%208.png](%E1%84%92%E1%85%B5%E1%86%B8(heap)%208741a611cbbb4027acb83f65df121b1f/Untitled%208.png)
+![%E1%84%92%E1%85%B5%E1%86%B8(heap)%208741a611cbbb4027acb83f65df121b1f/Untitled%208.png](img/Untitled%208.png)
 
 루트를 제거하고 가장 끝에 있는 2를 루트에 삽입한다. 2의 자식들인 15와 20 중 큰 값인 20은 2보다 크므로 20과 2를 스왑한다. 최대힙이 만들어졌으니 삭제연산을 종료한다.
 
 ex2) 최소힙 삭제
 
-![%E1%84%92%E1%85%B5%E1%86%B8(heap)%208741a611cbbb4027acb83f65df121b1f/Untitled%209.png](%E1%84%92%E1%85%B5%E1%86%B8(heap)%208741a611cbbb4027acb83f65df121b1f/Untitled%209.png)
+![%E1%84%92%E1%85%B5%E1%86%B8(heap)%208741a611cbbb4027acb83f65df121b1f/Untitled%209.png](img/Untitled%209.png)
 
                                           (a)                                                                         (b)
 
-![%E1%84%92%E1%85%B5%E1%86%B8(heap)%208741a611cbbb4027acb83f65df121b1f/Untitled%2010.png](%E1%84%92%E1%85%B5%E1%86%B8(heap)%208741a611cbbb4027acb83f65df121b1f/Untitled%2010.png)
+![%E1%84%92%E1%85%B5%E1%86%B8(heap)%208741a611cbbb4027acb83f65df121b1f/Untitled%2010.png](img/Untitled%2010.png)
 
                                           (c)                                                                          (d)
 
